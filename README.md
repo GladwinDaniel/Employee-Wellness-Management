@@ -4,7 +4,7 @@ A secure, modern, and interactive employee wellness portal built with **Streamli
 
 ---
 
-## 🌟 Features
+##  Features
 
 - **Secure Account Access**: Industry-standard authentication backed by **JSON Web Tokens (JWT)**.
 - **Verification & Password Reset (OTP)**: Two-factor registration verification and secure password reset utilizing 6-digit OTP codes sent via **Gmail SMTP (STARTTLS)**.
@@ -17,22 +17,7 @@ A secure, modern, and interactive employee wellness portal built with **Streamli
 
 ---
 
-## 📂 Project Structure
 
-```text
-├── Milestone1/
-│   ├── authentication&dashboard.ipynb   # Interactive Google Colab Notebook (DB init, Auth, App code, Ngrok execution)
-│   └── screenshots/                     # Screenshots showcasing the user flow and database tables
-│       ├── home_page.png                # Landing Page UI
-│       ├── login_page.png               # Secure Portal Login Page UI
-│       ├── new_account_register.png     # Account Registration Page UI
-│       ├── forgot_page.png              # Forgot Password / OTP Request Page UI
-│       ├── dashboard.png                # Emotional Support File Upload & Dashboard UI
-│       ├── neon_db_users.png            # Users table structure in Neon PostgreSQL
-│       └── neon_db_otp_codes.png        # OTP Codes table structure in Neon PostgreSQL
-├── LICENSE                              # MIT License
-└── README.md                            # Project Overview and Documentation
-```
 
 ---
 
@@ -46,7 +31,7 @@ A secure, modern, and interactive employee wellness portal built with **Streamli
 
 ---
 
-## 🔑 Environment Variables & Setup
+##  Environment Variables & Setup
 
 The application loads secrets from a `.env` file or directly from Google Colab's Secrets manager.
 
@@ -64,7 +49,7 @@ The application loads secrets from a `.env` file or directly from Google Colab's
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Database Setup
 The app automatically runs database table initializations on startup. The schema consists of two main tables:
@@ -82,7 +67,7 @@ All application modules (`db.py`, `auth.py`, `email_utils.py`, `app.py`) are pac
 
 ---
 
-## 📸 Screenshots & Visual Walkthrough
+## Screenshots & Visual Walkthrough
 
 ### App User Experience
 
@@ -118,6 +103,6 @@ Tracks OTP code history, expiration, and status.
 
 ---
 
-## 📄 License
+##  License
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 Copyright (c) 2026 Gladwin Daniel.
