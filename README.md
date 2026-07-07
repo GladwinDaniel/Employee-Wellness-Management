@@ -42,7 +42,7 @@ The application loads secrets from a `.env` file or directly from Google Colab's
 | `DB_NAME` | Database Name | `neondb` |
 | `DB_USER` | Database Username | `neondb_owner` |
 | `DB_PASSWORD` | Database Password | `your_db_password` |
-| `JWT_SECRET` | Secret key for signing session tokens | Any long random string |
+| `JWT_SECRET` | Secret key for signing session tokens | character length of 32 |
 | `SMTP_EMAIL` | Sender email address for OTP | `example@gmail.com` |
 | `SMTP_APP_PASSWORD` | 16-character Gmail App Password | `xxxx xxxx xxxx xxxx` |
 | `NGROK_AUTHTOKEN` | Tunneling authentication token | From [Ngrok Dashboard](https://dashboard.ngrok.com/) |
@@ -67,16 +67,6 @@ All application modules (`db.py`, `auth.py`, `email_utils.py`, `app.py`) are pac
 
 ---
 
-
-### Database Schemas
-
-#### Users Table
-Successfully verified and created accounts are stored in the relational database.
-![Users Database](Milestone1/screenshots/neon_db_users.png)
-
-#### OTP Codes Table
-Tracks OTP code history, expiration, and status.
-![OTP Codes Database](Milestone1/screenshots/neon_db_otp_codes.png)
 
 ---
 
