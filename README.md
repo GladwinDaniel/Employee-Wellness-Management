@@ -67,29 +67,6 @@ All application modules (`db.py`, `auth.py`, `email_utils.py`, `app.py`) are pac
 
 ---
 
-## Screenshots & Visual Walkthrough
-
-### App User Experience
-
-#### 1. Home / Landing Page
-The portal welcomes users with a clean, light-themed splash screen prompting to log in or register.
-![Home Page](Milestone1/screenshots/home_page.png)
-
-#### 2. Sign Up & Registration
-Users can register an account with their full name, email, and password. Standard validations ensure proper formatting.
-![Registration Page](Milestone1/screenshots/new_account_register.png)
-
-#### 3. Secure Portal Login
-Allows users to securely authenticate and initiates a JWT-signed session.
-![Login Page](Milestone1/screenshots/login_page.png)
-
-#### 4. Forgot / Reset Password Flow
-Secure password recovery workflow utilizing OTP codes.
-![Forgot Page](Milestone1/screenshots/forgot_page.png)
-
-#### 5. Reflect & Support Dashboard
-Once logged in, users can upload documents to receive emotional reflections and actionable recommendations.
-![Dashboard Page](Milestone1/screenshots/dashboard.png)
 
 ### Database Schemas
 
