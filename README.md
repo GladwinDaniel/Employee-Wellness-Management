@@ -21,7 +21,7 @@ A secure, modern, and interactive employee wellness portal built with **Streamli
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+##  Tech Stack & Dependencies
 
 - **Frontend**: [Streamlit](https://streamlit.io/) (v1.38.0)
 - **Database**: PostgreSQL hosted on [Neon](https://neon.tech/)
